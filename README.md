@@ -28,7 +28,7 @@ Based on connection topology and weight initialization, I have implemented the S
 - Grid topology, Random weight initialization
 - Grid topology, Sampled weights from data points
 
-Codes of each implementation are placed in the "Code" folder. Also, below you can see the animated gif of neurons' weights in each epoch during the training.
+Codes of each implementation are placed in the "[Codes](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/tree/main/Codes)" folder. Also, below you can see the animated gif of neurons' weights in each epoch during the training.
 **Note:** weights of winner neurons at each epoch are illustrated with non-grey colormap (plasma).
 ### Linear topology, Random weights
 
