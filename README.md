@@ -23,7 +23,7 @@ Each data point in the dataset recognizes itself by competing for representation
 
 ## The code, variations, and results
 Based on connection topology and weight initialization, I have implemented the SOM clustering on the MNIST dataset in four different ways:
-- Linear topology, Random weight initialization
+- Linear topology, Random weights initialization
 - Linear topology, Sampled weights from data points
 - Grid topology, Random weight initialization
 - Grid topology, Sampled weights from data points
@@ -33,20 +33,26 @@ Codes of each implementation are placed in the "Code" folder. Also, below you ca
 ### Linear topology, Random weights
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/16l5Vd8_q007Ygupj3z929hOWwXKQdL7Z/view?usp=sharing)
-
+Weights are initialized with random samples from a uniform distribution over `[0,  1)`.
 ![Linear topology, Random weight initialization](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/raw/main/Images/LINEAR-topology_RANDOM-weights/gif/LINEAR-topology_RANDOM-weights.gif)
 
 
 ### Linear topology, Sampled weights
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1D-SulHT6e2yOLkjRhW72L_41WbeMxGzA/view?usp=sharing)
+Weights are initialized with samples from images in the dataset.
 ![Linear topology, Sampled weights](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/raw/main/Images/LINEAR-topology_SAMPLED-weights/gif/LINEAR-topology_SAMPLED-weights.gif)
 
 ### Grid topology, Random weights
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/14dS8BII5YVH0jdyfrNe7AI93Et1QB9oe/view?usp=sharing)
+
+Weights are initialized with random samples from a uniform distribution over `[0,  1)`.
 ![Grid topology, Random weights](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/raw/main/Images/GRID-topology_RANDOM-weights/gif/GRID-topology_RANDOM-weights.gif)
 
 ### Grid topology, Sampled weights
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1k8ZxfqPWghaQd1GekfML0OMsOQaCIHRY/view?usp=sharing)
+Weights are initialized with samples from images in the dataset.
 ![Grid topology, Sampled weights](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/raw/main/Images/GRID-topology_SAMPLED-weights/gif/GRID-topology_SAMPLED-weights.gif)
 
 ## References
