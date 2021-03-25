@@ -8,7 +8,6 @@ The  [Self-Organizing Map](https://en.wikipedia.org/wiki/Self-organizing_map "Wi
 ## What really happens in SOM?
 Each data point in the dataset recognizes itself by competing for representation. SOM mapping steps start from initializing the weight vectors. From there, a sample vector is selected randomly, and the map of weight vectors is searched to find which weight best represents that sample. Each weight vector has neighboring weights that are close to it. The weight that is chosen is rewarded by being able to become more like that randomly selected sample vector. The neighbors of that weight are also rewarded by being able to become more like the chosen sample vector. This allows the map to grow and form different shapes. Most generally, they form square/rectangular/hexagonal/L shapes in 2D feature space.
 
-**Reference**: [Applications of the growing self-organizing map, Th. Villmann, H.-U. Bauer, May 1998](https://www.sciencedirect.com/science/article/abs/pii/S092523129800037X "ScienceDirect")
 
 <p align="center"><a href="https://commons.wikimedia.org/wiki/File:TrainSOM.gif#/media/File:TrainSOM.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/TrainSOM.gif" alt="TrainSOM.gif" height="300" width="300"></a><br>Training process of SOM on a two-dimensional data set<br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Chompinha&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:Chompinha (page does not exist)">Chompinha</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=77822988">Link</a></p>
 
@@ -52,6 +51,7 @@ Codes of each implementation are placed in the "Code" folder. Also, below you ca
 
 ## References
 - [Chaudhary, Vikas, R. S. Bhatia, and Anil K. Ahlawat. "A novel Self-Organizing Map (SOM) learning algorithm with nearest and farthest neurons." _Alexandria Engineering Journal_ 53.4 (2014): 827-831.](https://www.sciencedirect.com/science/article/pii/S1110016814000970) (paper)
+- [Applications of the growing self-organizing map, Th. Villmann, H.-U. Bauer, May 1998](https://www.sciencedirect.com/science/article/abs/pii/S092523129800037X "ScienceDirect") (paper)
 - [Self-organizing map](https://en.wikipedia.org/wiki/Self-organizing_map) (webpage)
 - [Discovering SOM, an Unsupervised Neural Network](https://medium.com/neuronio/discovering-som-an-unsupervised-neural-network-12e787f38f9) (webpage)
 - [Credit Card Fraud Detection using Self Organizing FeatureMaps](https://towardsdatascience.com/credit-card-fraud-detection-using-self-organizing-featuremaps-f6e8bca707bd) (webpage)
