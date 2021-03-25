@@ -55,7 +55,7 @@ Weights are initialized with random samples from a uniform distribution over `[0
 Weights are initialized with samples from images in the dataset.
 ![Grid topology, Sampled weights](https://github.com/hamed-ahangari/SOM-unsupervied-learning-on-MNIST-dataset/raw/main/Images/GRID-topology_SAMPLED-weights/gif/GRID-topology_SAMPLED-weights.gif)
 
-## References
+## Other references
 - [Chaudhary, Vikas, R. S. Bhatia, and Anil K. Ahlawat. "A novel Self-Organizing Map (SOM) learning algorithm with nearest and farthest neurons." _Alexandria Engineering Journal_ 53.4 (2014): 827-831.](https://www.sciencedirect.com/science/article/pii/S1110016814000970) (paper)
 - [Applications of the growing self-organizing map, Th. Villmann, H.-U. Bauer, May 1998](https://www.sciencedirect.com/science/article/abs/pii/S092523129800037X "ScienceDirect") (paper)
 - [Self-organizing map](https://en.wikipedia.org/wiki/Self-organizing_map) (webpage)
