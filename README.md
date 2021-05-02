@@ -2,6 +2,20 @@
 # SOM unsupervised learning on MNIST
 In this repository, I am publishing codes and results of one of the assignments in the "Neural Network and Deep Learning" course, which I have passed during my Master's degree at the University of Tehran.
 The assignment's goal was to train the Self-Organizing Map algorithm on the MNIST dataset.
+
+**Table of Contents**
+- [SOM unsupervised learning on MNIST](#som-unsupervised-learning-on-mnist)
+  - [Self Organising Maps – Kohonen Maps](#self-organising-maps--kohonen-maps)
+  - [What really happens in SOM?](#what-really-happens-in-som)
+    - [SOM algorithm](#som-algorithm)
+  - [The code, variations, and results](#the-code-variations-and-results)
+    - [Linear topology, Random weights](#linear-topology-random-weights)
+    - [Linear topology, Sampled weights](#linear-topology-sampled-weights)
+    - [Grid topology, Random weights](#grid-topology-random-weights)
+    - [Grid topology, Sampled weights](#grid-topology-sampled-weights)
+  - [Other references](#other-references)
+  - [Further reading](#further-reading)
+
 ## Self Organising Maps – Kohonen Maps
 The  [Self-Organizing Map](https://en.wikipedia.org/wiki/Self-organizing_map "Wikipedia")  (SOM) is an unsupervised learning algorithm introduced by Kohonen [[1]](https://scholar.google.com/scholar_lookup?title=Self-Organizing%20Maps&publication_year=1995&author=T.%20Kohonen "Google Scholar"). In the area of  [artificial neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network "Wikipedia"), the SOM is an excellent data-exploring tool as well [[2]](https://scholar.google.com/scholar?q=A%20new%20approach%20for%20data%20clustering%20%20visualization%20using%20self-organizing%20maps "Google Scholar"). It can project high-dimensional patterns onto a low-dimensional topology map. The SOM map consists of a one or two dimensional (2-D) grid of nodes. These nodes are also called neurons. Each neuron's weight vector has the same dimension as the input vector. The SOM obtains a statistical feature of the input data and is applied to a wide field of data classification [[3]](https://scholar.google.com/scholar?q=Y.%20Cheng,%20Clustering%20with%20competing%20self-organizing%20maps,%20in:%20Proc.%20of%20IJCNN,%20vol.%20IV,%20pp.%20785790,%201992. "Clustering with competing self-organizing maps"), [[4]](https://scholar.google.com/scholar?q=W.%20Wan,%20D.%20Fraser,%20M2dSOMAP:%20clustering%20and%20classification%20of%20remotely%20sensed%20imagery%20by%20combining%20multiple%20Kohonen%20self-organizing%20maps%20and%20associative%20memory,%20in:%20Proc.%20of%20IJCNN,%20vol.%20III,%20pp.%2024642467,%201993. "M2dSOMAP: clustering and classification of remotely sensed imagery by combining multiple Kohonen self-organizing maps and associative memory"), [[5]](https://scholar.google.com/scholar_lookup?title=Clustering%20of%20the%20self-organizing%20map&publication_year=2002&author=J.%20Vesanto&author=E.%20Alhoniemi "Clustering of the self-organizing map"), [[6]](https://scholar.google.com/scholar_lookup?title=Unsupervised%20speaker%20recognition%20based%20on%20competition%20between%20self-organizing%20maps&publication_year=2002&author=Lapidot&author=H.%20Guterman&author=A.%20Cohen "Unsupervised speaker recognition based on competition between self-organizing maps"). SOM is based on competitive learning. In competitive learning [[7]](https://scholar.google.com/scholar_lookup?title=Feature%20discovery%20by%20competitive%20learning&publication_year=1985&author=E.%20Rumelhart&author=D.%20Zipser "Feature discovery by competitive learning"), neuron activation is a function of the distance between neuron weight and input data. An activated neuron learns the most, and its weights are thus modified.
 
